@@ -26,7 +26,7 @@ plt.ylabel('Tips($)')
 plt.show()
 
 print_equation(slope,intercept,'$','$')
-fig.savefig('dataplot.png') # Please use this command to save your plots as PNG files
+fig.savefig('dataplot_1.png') # Please use this command to save your plots as PNG files
 #The equation of the line is y = 0.18221473222560391 $/$ x + -0.2922674195507699 $
 
 
@@ -46,5 +46,5 @@ plt.xlabel('Bills($)')
 plt.ylabel('PctTip(%)')
 plt.show()
 print_equation(slope,intercept,'%','$')
-fig.savefig('dataplot.png') 
+fig.savefig('dataplot_2.png') 
 
